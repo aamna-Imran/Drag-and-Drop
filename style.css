@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 9, 28);
+    text-align: center;
+}
+
+.container h1{
+   padding-top: 30px;
+   font-size: 50px;
+   font-weight: 600;
+   letter-spacing: 2px;
+   color: aliceblue;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    background-color: #fff;
+    min-height: 400px;
+    width: 300px;
+    margin: 40px;
+    background: transparent;
+    border: 2px dashed aliceblue;
+}
+
+.box {
+    margin: 25px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 24, 67);
+    color: #fff;
+    font-size: 22px;
+    cursor: grab;
+}
+
+.box:hover{
+    background-color:  rgb(243, 25, 105);
+    transform: scale(1.1 , 1.2);
+    transition: 0.5s;
+}
